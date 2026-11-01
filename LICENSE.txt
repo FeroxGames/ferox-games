@@ -1,0 +1,9 @@
+Copyright (c) 2026 FeroxGames. All rights reserved.
+
+The games distributed through the Ferox Launcher and this repository are
+provided to play. You may download and play them for personal use. You may not
+copy, redistribute, resell or modify them, or reuse their code or assets,
+without written permission from FeroxGames.
+
+Third-party components (for example three.js, MIT licensed) remain under their
+own licenses.
