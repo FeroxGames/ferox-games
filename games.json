@@ -15,8 +15,9 @@
                       "releaseDate":  "2026-11-01",
                       "price":  0,
                       "accent":  "#6b8f3a",
-                      "cover":  null,
-                      "banner":  null,
+                      "cover":  "images/weapons-tycoon-cover.png",
+                      "banner":  "images/weapons-tycoon-banner.webp",
+                      "titleInArt":  true,
                       "download":  {
                                        "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/weapons-tycoon-1.1.0.zip",
                                        "size":  85901,
