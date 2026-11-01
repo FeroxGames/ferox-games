@@ -44,8 +44,9 @@
                       "releaseDate":  "2026-10-31",
                       "price":  0,
                       "accent":  "#ffb627",
-                      "cover":  null,
-                      "banner":  null,
+                      "cover":  "images/timberline-defense-cover.png",
+                      "banner":  "images/timberline-defense-banner.png",
+                      "titleInArt":  true,
                       "download":  {
                                        "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/timberline-defense-1.0.0.zip",
                                        "size":  658174,
