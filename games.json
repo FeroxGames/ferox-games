@@ -1,64 +1,62 @@
 {
-  "games": [
-    {
-      "id": "weapons-tycoon",
-      "title": "Weapons Tycoon",
-      "tagline": "Build a munitions empire, one ammo box at a time.",
-      "description": "Run your own munitions factory. A worker assembles pistol ammo, the conveyor belt carries it to the collection bin, and you sell it for coins.\n\nYour progress saves automatically. Pause the game any time from the factory screen, or power the whole plant down.\n\nThis is an early pre-alpha release, with more to come.",
-      "engine": "HTML5",
-      "tags": ["Tycoon", "Idle", "Pixel Art"],
-      "version": "1.0.0",
-      "releaseDate": "2026-11-01",
-      "price": 0,
-      "accent": "#6b8f3a",
-      "cover": null,
-      "banner": null,
-      "download": {
-        "url": "https://github.com/FeroxGames/ferox-games/releases/download/games/weapons-tycoon-1.0.0.zip",
-        "size": 55686,
-        "sha256": "57f1eb78694ad6b17cd39473f4cfb6abc0f5b3c4b46c50e713ae4849dce03f45"
-      },
-      "launch": { "type": "html", "entry": "index.html", "width": 1280, "height": 760 }
-    },
-    {
-      "id": "timberline-defense",
-      "title": "Timberline Defense",
-      "tagline": "Hold the line. Place your riflemen and stop the Kerzan advance.",
-      "description": "A 3D tower defense game. Place units across the Timberline map and survive 25 waves of Kerzan soldiers.\n\nPlay solo or team up in online co-op (needs an internet connection).\n\nControls: left-drag to rotate, right-drag to pan, mouse wheel to zoom. Keys 1-5 pick a unit, click to place, Esc cancels, Space starts the next wave.",
-      "engine": "three.js",
-      "tags": ["Tower Defense", "3D", "Co-op"],
-      "version": "1.0.0",
-      "releaseDate": "2026-10-31",
-      "price": 0,
-      "accent": "#ffb627",
-      "cover": null,
-      "banner": null,
-      "download": {
-        "url": "https://github.com/FeroxGames/ferox-games/releases/download/games/timberline-defense-1.0.0.zip",
-        "size": 658174,
-        "sha256": "b21a2273fa3947e75706cd6a7a99ae2e8ce74eb97163b38fc62146a660fc0e18"
-      },
-      "launch": { "type": "html", "entry": "index.html", "width": 1280, "height": 760 }
-    },
-    {
-      "id": "ember-drift",
-      "title": "Ember Drift",
-      "tagline": "A tiny demo to test the launcher. Dodge the falling rocks.",
-      "description": "Steer a drifting ember through a storm of falling rocks. It's a small demo game for testing the Ferox Launcher's install and play flow.\n\nControls: mouse or arrow keys to move, Space to restart. F11 toggles fullscreen.",
-      "engine": "HTML5",
-      "tags": ["Arcade", "Demo"],
-      "version": "1.0.0",
-      "releaseDate": "2026-10-31",
-      "price": 0,
-      "accent": "#ff6a2b",
-      "cover": null,
-      "banner": null,
-      "download": {
-        "url": "https://github.com/FeroxGames/ferox-games/releases/download/games/ember-drift-1.0.0.zip",
-        "size": 2012,
-        "sha256": "987c4edc6f05b23e2e9f7769f9aa44a58993d8c92b6d14cda1455f47bbb95155"
-      },
-      "launch": { "type": "html", "entry": "index.html" }
-    }
-  ]
+    "games":  [
+                  {
+                      "id":  "weapons-tycoon",
+                      "title":  "Weapons Tycoon",
+                      "tagline":  "Build a munitions empire, one ammo box at a time.",
+                      "description":  "Run your own munitions factory. A worker assembles pistol ammo, the conveyor belt carries it to the collection bin, and you sell it for coins.\n\nYour progress saves automatically. Pause the game any time from the factory screen, or power the whole plant down.\n\nThis is an early pre-alpha release, with more to come.",
+                      "engine":  "HTML5",
+                      "tags":  [
+                                   "Tycoon",
+                                   "Idle",
+                                   "Pixel Art"
+                               ],
+                      "version":  "1.0.0",
+                      "releaseDate":  "2026-11-01",
+                      "price":  0,
+                      "accent":  "#6b8f3a",
+                      "cover":  null,
+                      "banner":  null,
+                      "download":  {
+                                       "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/weapons-tycoon-1.0.0.zip",
+                                       "size":  55686,
+                                       "sha256":  "57f1eb78694ad6b17cd39473f4cfb6abc0f5b3c4b46c50e713ae4849dce03f45"
+                                   },
+                      "launch":  {
+                                     "type":  "html",
+                                     "entry":  "index.html",
+                                     "width":  1280,
+                                     "height":  760
+                                 }
+                  },
+                  {
+                      "id":  "timberline-defense",
+                      "title":  "Timberline Defense",
+                      "tagline":  "Hold the line. Place your riflemen and stop the Kerzan advance.",
+                      "description":  "A 3D tower defense game. Place units across the Timberline map and survive 25 waves of Kerzan soldiers.\n\nPlay solo or team up in online co-op (needs an internet connection).\n\nControls: left-drag to rotate, right-drag to pan, mouse wheel to zoom. Keys 1-5 pick a unit, click to place, Esc cancels, Space starts the next wave.",
+                      "engine":  "three.js",
+                      "tags":  [
+                                   "Tower Defense",
+                                   "3D",
+                                   "Co-op"
+                               ],
+                      "version":  "1.0.0",
+                      "releaseDate":  "2026-10-31",
+                      "price":  0,
+                      "accent":  "#ffb627",
+                      "cover":  null,
+                      "banner":  null,
+                      "download":  {
+                                       "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/timberline-defense-1.0.0.zip",
+                                       "size":  658174,
+                                       "sha256":  "b21a2273fa3947e75706cd6a7a99ae2e8ce74eb97163b38fc62146a660fc0e18"
+                                   },
+                      "launch":  {
+                                     "type":  "html",
+                                     "entry":  "index.html",
+                                     "width":  1280,
+                                     "height":  760
+                                 }
+                  }
+              ]
 }
