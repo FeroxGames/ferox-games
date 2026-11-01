@@ -4,23 +4,23 @@
                       "id":  "weapons-tycoon",
                       "title":  "Weapons Tycoon",
                       "tagline":  "Build a munitions empire, one ammo box at a time.",
-                      "description":  "Run your own munitions factory. A worker assembles pistol ammo, the conveyor belt carries it to the collection bin, and you sell it for coins.\n\nYour progress saves automatically. Pause the game any time from the factory screen, or power the whole plant down.\n\nThis is an early pre-alpha release, with more to come.",
+                      "description":  "Run your own munitions factory. Workers build ammo, the conveyor belt carries it to the collection bin, and you sell it for coins.\n\nResearch new products, from rifle ammo and shotguns up to rocket launchers and attack drones, and give each one its own conveyor line. Upgrade every line's speed, crew, quality and profit, and keep it safe: lines can catch fire and break down, so hire firefighters and repairmen. Watch for spies sneaking in, and click them before time runs out. Rebirth your factory to unlock new floors.\n\nYour progress saves automatically. This is a pre-alpha release, with more to come.",
                       "engine":  "HTML5",
                       "tags":  [
                                    "Tycoon",
-                                   "Idle",
+                                   "Management",
                                    "Pixel Art"
                                ],
-                      "version":  "1.0.0",
+                      "version":  "1.1.0",
                       "releaseDate":  "2026-11-01",
                       "price":  0,
                       "accent":  "#6b8f3a",
                       "cover":  null,
                       "banner":  null,
                       "download":  {
-                                       "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/weapons-tycoon-1.0.0.zip",
-                                       "size":  55686,
-                                       "sha256":  "57f1eb78694ad6b17cd39473f4cfb6abc0f5b3c4b46c50e713ae4849dce03f45"
+                                       "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/weapons-tycoon-1.1.0.zip",
+                                       "size":  85901,
+                                       "sha256":  "0b7530019ef45e40dc209f19bba64d94aa180e453c10e3725d88e03f003ae2fd"
                                    },
                       "launch":  {
                                      "type":  "html",
