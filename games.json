@@ -1,6 +1,26 @@
 {
   "games": [
     {
+      "id": "weapons-tycoon",
+      "title": "Weapons Tycoon",
+      "tagline": "Build a munitions empire, one ammo box at a time.",
+      "description": "Run your own munitions factory. A worker assembles pistol ammo, the conveyor belt carries it to the collection bin, and you sell it for coins.\n\nYour progress saves automatically. Pause the game any time from the factory screen, or power the whole plant down.\n\nThis is an early pre-alpha release, with more to come.",
+      "engine": "HTML5",
+      "tags": ["Tycoon", "Idle", "Pixel Art"],
+      "version": "1.0.0",
+      "releaseDate": "2026-11-01",
+      "price": 0,
+      "accent": "#6b8f3a",
+      "cover": null,
+      "banner": null,
+      "download": {
+        "url": "https://github.com/FeroxGames/ferox-games/releases/download/games/weapons-tycoon-1.0.0.zip",
+        "size": 55686,
+        "sha256": "57f1eb78694ad6b17cd39473f4cfb6abc0f5b3c4b46c50e713ae4849dce03f45"
+      },
+      "launch": { "type": "html", "entry": "index.html", "width": 1280, "height": 760 }
+    },
+    {
       "id": "timberline-defense",
       "title": "Timberline Defense",
       "tagline": "Hold the line. Place your riflemen and stop the Kerzan advance.",
