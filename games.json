@@ -1,6 +1,36 @@
 {
     "games":  [
                   {
+                      "id":  "arena-100",
+                      "title":  "Arena 100",
+                      "tagline":  "Survive 100 waves.",
+                      "description":  "Hold the line through 100 waves across ten arenas. Spend coins at the rocks and trees, switch guns at the Arsenal, and fight your way past a boss in each arena.\n\nPick one of five difficulties, from Easy to Nightmare, and build up a big tree of weapons and upgrades. Clear wave 100 and you can rebirth, stronger for good.\n\nControls: W A S D to move, mouse to aim, left click or E to shoot, Space to dash, R to use a rock or tree, Q to start the next wave, P to pause. Touch controls work too. Your progress saves automatically.",
+                      "engine":  "HTML5",
+                      "tags":  [
+                                   "Action",
+                                   "Shooter",
+                                   "Wave Survival"
+                               ],
+                      "version":  "1.0.0",
+                      "releaseDate":  "2026-11-06",
+                      "price":  0,
+                      "accent":  "#9be36b",
+                      "cover":  "images/arena-100-cover.jpg",
+                      "banner":  "images/arena-100-banner.jpg",
+                      "titleInArt":  true,
+                      "download":  {
+                                       "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/arena-100-1.0.0.zip",
+                                       "size":  147252,
+                                       "sha256":  "b0df7db6465e80b4d23f99b36ba2880703820684256c44737c62fc6f2cd57c54"
+                                   },
+                      "launch":  {
+                                     "type":  "html",
+                                     "entry":  "index.html",
+                                     "width":  1280,
+                                     "height":  760
+                                 }
+                  },
+                  {
                       "id":  "weapons-tycoon",
                       "title":  "Munitions & Co.",
                       "tagline":  "Build a munitions empire, one ammo box at a time.",
