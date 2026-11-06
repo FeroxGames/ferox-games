@@ -41,7 +41,7 @@
                                    "Management",
                                    "Pixel Art"
                                ],
-                      "version":  "1.1.0",
+                      "version":  "1.1.1",
                       "releaseDate":  "2026-11-01",
                       "price":  0,
                       "accent":  "#6b8f3a",
@@ -49,9 +49,9 @@
                       "banner":  "images/weapons-tycoon-banner.webp",
                       "titleInArt":  true,
                       "download":  {
-                                       "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/weapons-tycoon-1.1.0.zip",
-                                       "size":  85901,
-                                       "sha256":  "0b7530019ef45e40dc209f19bba64d94aa180e453c10e3725d88e03f003ae2fd"
+                                       "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/weapons-tycoon-1.1.1.zip",
+                                       "size":  85939,
+                                       "sha256":  "a748db8dbce7ef03b58e4e10218b65a6a6dc19cd45a8b0d858d368ce31b4c505"
                                    },
                       "launch":  {
                                      "type":  "html",
