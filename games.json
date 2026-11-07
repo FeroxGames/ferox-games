@@ -1,6 +1,36 @@
 {
     "games":  [
                   {
+                      "id":  "rags-to-rich",
+                      "title":  "Rags to Rich",
+                      "tagline":  "$20 in your pocket. $1,000,000,000 to go.",
+                      "description":  "Start with $20 in Greenwood City and work your way up to a billion. Take jobs, from fry cook to CEO, go back to school, buy better clothes and a ride, and move out of your studio apartment into a mansion on the hill.\n\nPlay the stock market, buy properties that pay you every second, and try your luck at the casino and the race track. Mind the traffic, the police and the courts, because the city has rules.\n\nControls: WASD or the arrow keys to walk, E to enter buildings, M for the map, Esc to leave. An on-screen D-pad works for touch. Your progress saves automatically.",
+                      "engine":  "HTML5",
+                      "tags":  [
+                                   "Simulation",
+                                   "Life Sim",
+                                   "Pixel Art"
+                               ],
+                      "version":  "1.0.0",
+                      "releaseDate":  "2026-11-07",
+                      "price":  0,
+                      "accent":  "#f6c945",
+                      "cover":  "images/rags-to-rich-cover.png",
+                      "banner":  "images/rags-to-rich-banner.png",
+                      "titleInArt":  true,
+                      "download":  {
+                                       "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/rags-to-rich-1.0.0.zip",
+                                       "size":  69047,
+                                       "sha256":  "407e01a36cbab67df833c730ba384048558f5567a7b0b5c5e33d21624408863c"
+                                   },
+                      "launch":  {
+                                     "type":  "html",
+                                     "entry":  "index.html",
+                                     "width":  1280,
+                                     "height":  760
+                                 }
+                  },
+                  {
                       "id":  "arena-100",
                       "title":  "Arena 100",
                       "tagline":  "Survive 100 waves.",
