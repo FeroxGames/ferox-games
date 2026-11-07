@@ -94,14 +94,14 @@
                       "id":  "timberline-defense",
                       "title":  "Timberline Defense",
                       "tagline":  "Hold the line. Place your riflemen and stop the Kerzan advance.",
-                      "description":  "A 3D tower defense game. Place units across the Timberline map and survive 25 waves of Kerzan soldiers.\n\nPlay solo or team up in online co-op (needs an internet connection).\n\nControls: left-drag to rotate, right-drag to pan, mouse wheel to zoom. Keys 1-5 pick a unit, click to place, Esc cancels, Space starts the next wave.",
+                      "description":  "A 3D tower defense game. Place units across the Timberline map and survive 25 waves of Kerzan soldiers.\n\nPlay solo or team up in online co-op (needs an internet connection).\n\nControls: left-drag to rotate, right-drag to pan, mouse wheel to zoom. Keys 1-5 pick a unit, click to place, Esc cancels, Space starts the next wave, M mutes the sound.\n\nUpgrade an Artillery to level 5 to turn it into a tracked six-cannon monster, then press B during a wave to call in a Barrage.",
                       "engine":  "three.js",
                       "tags":  [
                                    "Tower Defense",
                                    "3D",
                                    "Co-op"
                                ],
-                      "version":  "1.0.0",
+                      "version":  "1.1.0",
                       "releaseDate":  "2026-10-31",
                       "price":  0,
                       "accent":  "#ffb627",
@@ -109,9 +109,9 @@
                       "banner":  "images/timberline-defense-banner.png",
                       "titleInArt":  true,
                       "download":  {
-                                       "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/timberline-defense-1.0.0.zip",
-                                       "size":  658174,
-                                       "sha256":  "b21a2273fa3947e75706cd6a7a99ae2e8ce74eb97163b38fc62146a660fc0e18"
+                                       "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/timberline-defense-1.1.0.zip",
+                                       "size":  661096,
+                                       "sha256":  "810f3c69b8562001836a1dd945684c8b5524f061a10e87c54df9450d2ed141dc"
                                    },
                       "launch":  {
                                      "type":  "html",
