@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; img-src 'self'; style-src 'self'; font-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'"
+    />
+    <title>Ferox Launcher by FeroxGames</title>
+    <meta name="description" content="Download the Ferox Launcher for Windows and play every FeroxGames game from one place." />
+    <meta name="theme-color" content="#0b0c0f" />
+    <link rel="icon" type="image/png" href="site/logo.png" />
+    <link rel="preload" href="site/LeagueSpartan.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="site/site.css" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="FeroxGames" />
+    <meta property="og:title" content="Ferox Launcher" />
+    <meta property="og:description" content="Download the launcher for Windows and play every FeroxGames game from one place." />
+    <meta property="og:url" content="https://feroxgames.github.io/ferox-games/" />
+    <meta property="og:image" content="https://feroxgames.github.io/ferox-games/site/og.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script src="site/site.js" defer></script>
+  </head>
+  <body>
+    <header class="top wrap">
+      <a class="brand" href="./">
+        <img src="site/logo.png" alt="" width="36" height="36" />
+        <span class="brand-name">FEROX<span>GAMES</span></span>
+      </a>
+      <nav class="top-nav" aria-label="On this page">
+        <a href="#games">Games</a>
+        <a href="#install">How to install</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <h1>Every FeroxGames game in one place.</h1>
+          <p class="lede">Install any game with one click and play it from the launcher. It updates itself, and it tells you when a game has a new version.</p>
+
+          <a class="download" href="https://github.com/FeroxGames/ferox-games/releases/download/launcher/Ferox-Launcher-Setup-0.1.6.exe">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11" /><path d="m7 11 5 5 5-5" /><path d="M5 20h14" /></svg>
+            Download for Windows
+          </a>
+          <p class="spec">Free · Version 0.1.6 · 116 MB · Windows 10 or 11</p>
+          <p class="not-windows" id="not-windows" hidden>The launcher only runs on Windows PCs for now. Open this page on a Windows PC to install it.</p>
+          <p class="hint">Windows may warn you about the installer. <a href="#install">Here's what to do.</a></p>
+        </div>
+
+        <figure class="hero-shot">
+          <img src="site/shot-home.webp" width="2560" height="1600" alt="The Ferox Launcher home screen, with Timberline Defense featured at the top and a sidebar listing every game." />
+        </figure>
+      </section>
+
+      <section class="section wrap" id="games" aria-labelledby="games-title">
+        <div class="section-head">
+          <h2 id="games-title">Games in the launcher</h2>
+          <p class="section-meta" id="games-count"></p>
+        </div>
+        <ul class="game-grid" id="game-grid"></ul>
+        <p class="load-note" id="games-error" hidden>The game list didn't load here, but you can still see every game in the launcher.</p>
+        <noscript><p class="load-note">Turn on JavaScript to see the game list here. You can also see every game in the launcher.</p></noscript>
+      </section>
+
+      <section class="section wrap" aria-labelledby="inside-title">
+        <div class="section-head">
+          <h2 id="inside-title">Inside the launcher</h2>
+        </div>
+        <div class="shots">
+          <figure>
+            <img src="site/shot-game.webp" width="2560" height="1600" loading="lazy" alt="The Arena 100 page in the launcher, with a Play button, a description of the game, and its version and download size." />
+            <figcaption>Each game has its own page, with what it's about and how to play it.</figcaption>
+          </figure>
+          <figure>
+            <img src="site/shot-install.webp" width="2560" height="1600" loading="lazy" alt="The Timberline Defense page in the launcher, with a progress bar showing the game downloading." />
+            <figcaption>Press Install, and the game is ready to play when the download finishes.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section wrap" id="install" aria-labelledby="install-title">
+        <div class="section-head">
+          <h2 id="install-title">How to install</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <h3>Download the installer</h3>
+            <p>Your browser may say the file isn't commonly downloaded. If it does, choose <b class="ui">Keep</b> to carry on.</p>
+          </li>
+          <li>
+            <h3>Open it</h3>
+            <p>If you see "Windows protected your PC", click <b class="ui">More info</b> and then <b class="ui">Run anyway</b> to start the setup.</p>
+          </li>
+          <li>
+            <h3>Pick a game</h3>
+            <p>Open Ferox Launcher, choose a game and press <b class="ui">Install</b> to download it.</p>
+          </li>
+        </ol>
+
+        <a class="download" href="https://github.com/FeroxGames/ferox-games/releases/download/launcher/Ferox-Launcher-Setup-0.1.6.exe">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11" /><path d="m7 11 5 5 5-5" /><path d="M5 20h14" /></svg>
+          Download for Windows
+        </a>
+
+        <div class="why">
+          <h3>Why does Windows warn me?</h3>
+          <p>The launcher isn't code-signed yet. Signing takes a paid certificate, and without one Windows treats the launcher as an app from an unknown publisher. The warning doesn't mean a virus was found. Only download the launcher from this page, so you know you have the real one.</p>
+          <details>
+            <summary>Check your download</summary>
+            <p>If you want to be sure the file is intact, its SHA-256 checksum should be:</p>
+            <code>713c9e17e9c62df3a6e8a408b9957b08e4dcf91b831e7b0234112824f5b62c27</code>
+            <p>To see your file's checksum, run this in PowerShell:</p>
+            <code>Get-FileHash "$env:USERPROFILE\Downloads\Ferox-Launcher-Setup-0.1.6.exe"</code>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot wrap">
+      <p>© 2026 FeroxGames. Font: League Spartan, under the SIL Open Font License.</p>
+      <nav aria-label="More">
+        <a href="https://github.com/FeroxGames/ferox-games/releases/tag/launcher">All launcher downloads</a>
+        <a href="LICENSE.txt">License</a>
+      </nav>
+    </footer>
+  </body>
+</html>
