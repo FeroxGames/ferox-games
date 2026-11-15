@@ -13,6 +13,9 @@
                                ],
                       "version":  "1.0.0",
                       "releaseDate":  "2026-11-07",
+                      "changelog":  [
+                                        { "version":  "1.0.0", "date":  "2026-11-07", "notes":  [ "First release." ] }
+                                    ],
                       "price":  0,
                       "accent":  "#f6c945",
                       "cover":  "images/rags-to-rich-cover.png",
@@ -43,6 +46,9 @@
                                ],
                       "version":  "1.0.0",
                       "releaseDate":  "2026-11-06",
+                      "changelog":  [
+                                        { "version":  "1.0.0", "date":  "2026-11-06", "notes":  [ "First release." ] }
+                                    ],
                       "price":  0,
                       "accent":  "#9be36b",
                       "cover":  "images/arena-100-cover.jpg",
@@ -73,6 +79,10 @@
                                ],
                       "version":  "1.1.1",
                       "releaseDate":  "2026-11-01",
+                      "changelog":  [
+                                        { "version":  "1.1.1", "date":  "2026-11-06", "notes":  [ "A corrupted save file no longer stops the game from starting." ] },
+                                        { "version":  "1.1.0", "date":  "2026-11-01", "notes":  [ "Full game release." ] }
+                                    ],
                       "price":  0,
                       "accent":  "#6b8f3a",
                       "cover":  "images/weapons-tycoon-cover.png",

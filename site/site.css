@@ -453,6 +453,47 @@ details p {
   margin-top: 14px;
 }
 
+/* ---------- Text pages (privacy) ---------- */
+
+.prose {
+  max-width: 46rem;
+  padding-block: 24px 8px;
+}
+
+.prose h2 {
+  margin-top: 44px;
+  font-size: clamp(24px, 6vw, 30px);
+}
+
+.prose p,
+.prose ul {
+  margin-top: 14px;
+  color: var(--soft);
+}
+
+.prose ul {
+  padding-left: 1.25em;
+}
+
+.prose li {
+  margin-top: 8px;
+}
+
+.prose b {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.prose .ui {
+  font-weight: 600;
+}
+
+.prose .updated {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
 /* ---------- Footer ---------- */
 
 .foot {
