@@ -113,6 +113,9 @@
                                ],
                       "version":  "1.1.0",
                       "releaseDate":  "2026-10-31",
+                      "changelog":  [
+                                        { "version":  "1.1.0", "date":  "2026-10-31", "notes":  [ "New unit: the Artillery. Upgrade it to level 5 and it becomes a tracked six-cannon monster.", "New ability: Barrage. Press B during a wave to call it in." ] }
+                                    ],
                       "price":  0,
                       "accent":  "#ffb627",
                       "cover":  "images/timberline-defense-cover.png",
