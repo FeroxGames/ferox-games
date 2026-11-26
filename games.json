@@ -145,9 +145,10 @@
                       "description":  "Drag glow-stones onto an 8x8 grid, shatter full rows and columns, and join one colour into a big cluster to make it bloom. Every few stones the tide rises and washes barnacles onto the board.\n\nPick one of four difficulties, from Easy to Nightmare, where you get 10 seconds for each move. Your top five runs on each difficulty are saved.\n\nControls: drag a stone from the tray onto the grid. Tap a stone to rotate it, or press R or right-click while dragging. Esc opens the menu.",
                       "engine":  "HTML5",
                       "tags":  [ "Puzzle", "Casual" ],
-                      "version":  "1.0.0",
+                      "version":  "1.0.1",
                       "releaseDate":  "2026-11-26",
                       "changelog":  [
+                                        { "version":  "1.0.1", "date":  "2026-11-26", "notes":  [ "Fonts are now built into the game, so it no longer loads them from Google." ] },
                                         { "version":  "1.0.0", "date":  "2026-11-26", "notes":  [ "First release." ] }
                                     ],
                       "price":  0,
@@ -156,9 +157,9 @@
                       "banner":  "images/lumen-deep-banner.webp",
                       "titleInArt":  true,
                       "download":  {
-                                       "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/lumen-deep-1.0.0.zip",
-                                       "size":  23286,
-                                       "sha256":  "58077e755410bc0d068a2c9ceac51148113f31df96282525b744de2d156aa1e2"
+                                       "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/lumen-deep-1.0.1.zip",
+                                       "size":  248184,
+                                       "sha256":  "1da7fd9f1f6457bca3a5c748ee78a0decf1cf0f8955c453f0b27f023e757820b"
                                    },
                       "launch":  {
                                      "type":  "html",

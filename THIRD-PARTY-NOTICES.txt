@@ -1,6 +1,6 @@
 THIRD-PARTY NOTICES
 Ferox Launcher and the games in it, by FeroxGames
-Last updated 15 November 2026
+Last updated 26 November 2026
 
 The Ferox Launcher and its games include the open-source parts below. They are
 used under their own licenses, which are not changed by FeroxGames' own license
@@ -35,6 +35,12 @@ Pixelify Sans (Munitions & Co.)
 
 Fredoka (Timberline Defense)
   Copyright 2016 The Fredoka Project Authors (https://github.com/hafontia/Fredoka-One)
+
+Instrument Sans (Lumen Deep)
+  Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)
+
+Unbounded (Lumen Deep)
+  Copyright 2022 The Unbounded Project Authors (https://github.com/googlefonts/unbounded)
 
 
 THREE.JS (Timberline Defense) - MIT License
