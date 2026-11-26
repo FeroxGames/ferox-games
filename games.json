@@ -136,6 +136,36 @@
                                      "width":  1280,
                                      "height":  760
                                  }
+                  },
+                  {
+                      "id":  "lumen-deep",
+                      "developer":  "R3dbutter",
+                      "title":  "Lumen Deep",
+                      "tagline":  "A deep-sea block puzzle.",
+                      "description":  "Drag glow-stones onto an 8x8 grid, shatter full rows and columns, and join one colour into a big cluster to make it bloom. Every few stones the tide rises and washes barnacles onto the board.\n\nPick one of four difficulties, from Easy to Nightmare, where you get 10 seconds for each move. Your top five runs on each difficulty are saved.\n\nControls: drag a stone from the tray onto the grid. Tap a stone to rotate it, or press R or right-click while dragging. Esc opens the menu.",
+                      "engine":  "HTML5",
+                      "tags":  [ "Puzzle", "Casual" ],
+                      "version":  "1.0.0",
+                      "releaseDate":  "2026-11-26",
+                      "changelog":  [
+                                        { "version":  "1.0.0", "date":  "2026-11-26", "notes":  [ "First release." ] }
+                                    ],
+                      "price":  0,
+                      "accent":  "#59e6ff",
+                      "cover":  "images/lumen-deep-cover.webp",
+                      "banner":  "images/lumen-deep-banner.webp",
+                      "titleInArt":  true,
+                      "download":  {
+                                       "url":  "https://github.com/FeroxGames/ferox-games/releases/download/games/lumen-deep-1.0.0.zip",
+                                       "size":  23286,
+                                       "sha256":  "58077e755410bc0d068a2c9ceac51148113f31df96282525b744de2d156aa1e2"
+                                   },
+                      "launch":  {
+                                     "type":  "html",
+                                     "entry":  "index.html",
+                                     "width":  1280,
+                                     "height":  760
+                                 }
                   }
               ]
 }
